@@ -1,0 +1,36 @@
+.services {
+  overflow: hidden;
+}
+.services .box {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.services .box .card {
+  /* background-image: linear-gradient(to top, #000428, #004e92); */
+  padding: 10px 20px;
+  border-radius: 15px;
+  border: 1px solid #462255;
+  box-shadow: 0 3px 10px rgba(1, 1, 22);
+
+}
+.services .box .card h1 {
+  color: var(--color-primary);
+  font-size: 40px;
+
+}
+.services .box .card p {
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 15px;
+  margin-top: 5px;
+}
+.services .box .card:hover {
+  background-image: linear-gradient(to top, transparent, #462255);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .services .box .card {
+    text-align: center;
+  }
+}

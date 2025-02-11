@@ -1,0 +1,57 @@
+.skills {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  overflow: hidden;
+}
+.skills .box {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.skills .skill {
+  background-color: transparent;
+  border: 1px solid #462255;
+  box-shadow: 0 3px 10px rgba(1, 1, 22);
+  padding: 10px;
+/* transition: 0.3s; */
+  align-items: center;
+  border-radius: 8px;
+  display: flex;
+}
+
+.skills .skill img {
+  width: 60px;
+  padding: 0 5px;
+  margin-right: 5px;
+}
+.skills .box .skill:hover {
+  background-image: linear-gradient(to bottom, transparent, #462255);
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.skills .skill .text {
+  margin-left: 10px;
+}
+.skills .skill p {
+  color: var(--color-light);
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .skills .box .skill {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+  .skills .box {
+    /* margin: auto; */
+    width: 100%;
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  }
+  .skills .skill .imag {
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+}
