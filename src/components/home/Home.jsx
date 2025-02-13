@@ -1,6 +1,6 @@
 import "./home.css";
 import png from "../../assets/31a6af58-0274-4626-8122-baa042d160fa.jpeg";
-import cv from "../../assets/Shehab Hussein ,cv.pdf.pdf";
+import cv from "../../assets/Shehab Hussein ,cv.pdf (2).pdf";
 import Social from "./Social";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
@@ -55,14 +55,20 @@ function Home() {
             className="text-light"
             initial={{ x: 0 }}
             animate={{ x: "-100%" }}
-            transition={{ duration: 120, repeat: Infinity, delay:1.5 ,ease:"linear"}}
+            transition={{
+              duration: 120,
+              repeat: Infinity,
+              delay: 1.5,
+              ease: "linear",
+            }}
           >
             A Frontend Developer A Frontend Developer A Frontend Developer A
             Frontend Developer A Frontend Developer A Frontend Developer A
             Frontend Developer A Frontend Developer A Frontend Developer A
             Frontend Developer A Frontend Developer A Frontend Developer A
             Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer Frontend Developer A Frontend Developer
+            Frontend Developer A Frontend Developer Frontend Developer A
+            Frontend Developer
           </motion.h4>
         </div>
         <div className="btns">
