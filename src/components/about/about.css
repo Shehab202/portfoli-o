@@ -35,9 +35,8 @@
 }
 #about .content  {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  /* display:flex;
-  justify-content: space-around; */
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+
 }
 #about .content span,
 #about .text h2 {
@@ -55,9 +54,25 @@
     margin: auto;
   }
   #about .content  {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax( 1fr)); */
+
     display:flex;
     justify-content: space-around;
   }
 }
+@media (min-width: 1200px) {
+  #about .content  {
+
+    display:flex;
+    justify-content: space-around;
+
+  }
+  #about .text p{
+    width: 500px;
+  }
+  #about .imge{
+  text-align: center;
+  margin: auto;
+  }
+
+}
+

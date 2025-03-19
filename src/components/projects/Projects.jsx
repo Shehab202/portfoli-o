@@ -39,7 +39,7 @@ const allProject = [
     title: "Book-Store",
     github: "kk",
     demo: "https://delightful-tapioca-7a0a8e.netlify.app/",
-    technologies: [reactsvg, reactIcon, reduxIcon, router],
+    technologies: [reactsvg, reactIcon, router],
   },
   {
     id: 4,

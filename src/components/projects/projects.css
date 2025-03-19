@@ -9,12 +9,11 @@
   gap: 20px;
 }
 .project .box .card {
-  background-image: linear-gradient(
-    to right,
-    rgb(15, 23, 42),
-    rgb(88, 28, 135),
-    rgb(15, 23, 42)
-  );
+
+
+
+  background-color: rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(15px);
 
   height: 380px;
   border-radius: 10px;

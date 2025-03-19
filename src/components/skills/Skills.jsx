@@ -13,7 +13,7 @@ import typescriptIcon from "../../assets/typescript-2.svg";
 import router from "../../assets/Dark (1).svg";
 import axios from "../../assets/axios.svg";
 import vite from "../../assets/Vitejs-logo.svg.png";
-
+import nextIcon from "../../assets/dango-inner-2.webp";
 
 import { motion } from "framer-motion";
 const skills = [
@@ -29,61 +29,76 @@ const skills = [
     id: 2,
     icon: cssIcon,
     title: "CSS",
-    description:"Proficient in crafting responsive designs with CSS3 and Bootstrap 5."
-,
+    description:
+      "Proficient in crafting responsive designs with CSS3 and Bootstrap 5.",
   },
   {
     id: 3,
     icon: javascriptIcon,
     title: "JavaScript",
-    description: "Experienced in building interactive web features using JavaScript",
+    description:
+      "Experienced in building interactive web features using JavaScript",
   },
 
   {
     id: 9,
     icon: typescriptIcon,
     title: "TypeScript",
-    description: "Specialized in writing scalable and maintainable code with TypeScript."
-
+    description:
+      "Specialized in writing scalable and maintainable code with TypeScript.",
   },
-  {
-    id: 10,
-    icon: bootstrapIcon,
-    title: "Bootstrap",
-    description: "Expert in designing responsive, mobile-first websites with Bootstrap.",
-  },
-  {
-    id: 4,
-    icon: tailwindIcon,
-    title: "Tailwind CSS",
-    description:"Experienced in designing modern and responsive interfaces using Tailwind CSS for various projects.",
-  },
-  {
-    id: 5,
-    icon: gitIcon,
-    title: "Git",
-    description: "Proficient in version control and collaborative workflows using Git.",
-  },
-  {
-    id: 6,
-    icon: githubIcon,
-    title: "Github",
-    description: "Skilled in managing repositories and collaborating on projects through GitHub.",
-  },
-
   {
     id: 7,
     icon: reactIcon,
     title: "React",
-    description: "Experienced in building dynamic user interfaces and managing state efficiently with React.",
+    description:
+      "Experienced in building dynamic user interfaces and managing state efficiently with React.",
+  },
+
+  {
+    id: 15,
+    icon: nextIcon,
+    title: "Next",
+    description:
+      "Familiar with building web applications using Next.js, including basic routing, API routes, and server-side rendering",
   },
   {
     id: 8,
     icon: reduxIcon,
     title: "Redux",
-    description: "Skilled in implementing state management solutions with Redux for scalable applications."
-,
+    description:
+      "Skilled in implementing state management solutions with Redux for scalable applications.",
   },
+  {
+    id: 10,
+    icon: bootstrapIcon,
+    title: "Bootstrap",
+    description:
+      "Expert in designing responsive, mobile-first websites with Bootstrap.",
+  },
+  {
+    id: 4,
+    icon: tailwindIcon,
+    title: "Tailwind CSS",
+    description:
+      "Experienced in designing modern and responsive interfaces using Tailwind CSS for various projects.",
+  },
+  {
+    id: 5,
+    icon: gitIcon,
+    title: "Git",
+    description:
+      "Proficient in version control and collaborative workflows using Git.",
+  },
+  {
+    id: 6,
+    icon: githubIcon,
+    title: "Github",
+    description:
+      "Skilled in managing repositories and collaborating on projects through GitHub.",
+  },
+
+ 
   {
     id: 11,
     icon: framer,
@@ -94,16 +109,18 @@ const skills = [
     id: 13,
     icon: router,
     title: "React-Router",
-    description: "I develop interactive web applications using React Router to manage navigation between pages seamlessly.",
+    description:
+      "I develop interactive web applications using React Router to manage navigation between pages seamlessly.",
   },
   {
     id: 14,
     icon: axios,
     title: "Axios",
-    description: "I'm developing a web application that requires communication with a backend server, and I used Axios to efficiently manage HTTP requests (GET, POST, PUT, DELETE).",
+    description:
+      "I'm developing a web application that requires communication with a backend server, and I used Axios to efficiently manage HTTP requests (GET, POST, PUT, DELETE).",
   },
   {
-    id: 14,
+    id: 16,
     icon: vite,
     title: "vite",
     description: "Use Vite for high performance and speed of development.",
@@ -134,7 +151,6 @@ function Skills() {
                 }}
                 viewport={{ once: true }}
                 transition={{
-                 
                   type: "spring",
                   ease: "easeInOut",
                   delay: 0.2,
