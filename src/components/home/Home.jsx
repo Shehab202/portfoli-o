@@ -1,6 +1,6 @@
 import "./home.css";
 import png from "../../assets/31a6af58-0274-4626-8122-baa042d160fa.jpeg";
-import cv from "../../assets/Shehab Hussein ,cv.pdf (3).pdf";
+import cv from "../../assets/Shehab Hussein ,cv.pdf";
 import Social from "./Social";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";

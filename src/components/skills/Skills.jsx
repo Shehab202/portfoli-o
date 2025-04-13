@@ -14,6 +14,7 @@ import router from "../../assets/Dark (1).svg";
 import axios from "../../assets/axios.svg";
 import vite from "../../assets/Vitejs-logo.svg.png";
 import nextIcon from "../../assets/dango-inner-2.webp";
+import reactNativeIcon from "../../assets/react-native-1.svg";
 
 import { motion } from "framer-motion";
 const skills = [
@@ -53,6 +54,13 @@ const skills = [
     title: "React",
     description:
       "Experienced in building dynamic user interfaces and managing state efficiently with React.",
+  },
+  {
+    id: 17,
+    icon: reactNativeIcon,
+    title: "React Native",
+    description:
+      "Develop mobile apps using React Native, with a focus on user-friendly UI design and effective state manipulation.",
   },
 
   {
@@ -98,7 +106,6 @@ const skills = [
       "Skilled in managing repositories and collaborating on projects through GitHub.",
   },
 
- 
   {
     id: 11,
     icon: framer,
