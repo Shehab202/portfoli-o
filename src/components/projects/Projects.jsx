@@ -5,9 +5,12 @@ import project3 from "../../assets/bondi.png";
 import project4 from "../../assets/crud.png";
 import project5 from "../../../src/assets/ecomm.png";
 import project6 from "../../assets/portfolio6.jpg";
-import htmlIcon from "../../assets/html-1.svg";
+import ocean from "../../assets/ocean.png";
+import htmlIcon from "../../assets/html-2.svg";
 import cssIcon from "../../assets/css-3 (1).svg";
 import javascriptIcon from "../../assets/logo-javascript.svg";
+import next from "../../assets/dango-inner-2.webp";
+import lucide from "../../assets/html-1.svg";
 import reactIcon from "../../assets/react-icons.svg";
 import jsonserver from "../../assets/json-server-use-cases.b90494c0.png";
 import twelements from "../../assets/te-transparent-noshadows.webp";
@@ -40,6 +43,14 @@ const allProject = [
     github: "kk",
     demo: "https://delightful-tapioca-7a0a8e.netlify.app/",
     technologies: [reactsvg, reactIcon, router],
+  },
+  {
+    id: 23,
+    img: ocean,
+    title: "ocean",
+    github: "kk",
+    demo: "https://ocean-zfhr-jhoujdh24-shehab202s-projects.vercel.app/",
+    technologies: [next, tailwindIcon, lucide],
   },
   {
     id: 4,

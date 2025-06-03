@@ -2,11 +2,14 @@
   text-align: center;
   height: 100%;
   position: relative;
+
 }
 .home {
-  height: 100vh;
-  padding-top: 100px;
+  /* height: 100vh;*/
+  padding-top: 50px; 
   overflow: hidden;
+  padding-bottom: 15px;
+
 }
 
 .btns {
@@ -26,15 +29,17 @@
 }
 
 .home-content .image {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   text-align: center;
   margin: auto;
   margin-top: 20px;
+
 }
 .home-content .image img {
   border-radius: 50%;
+  
 }
 .icon {
   position: absolute;

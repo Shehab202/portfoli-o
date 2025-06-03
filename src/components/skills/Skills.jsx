@@ -1,5 +1,5 @@
 import "./skills.css";
-import htmlIcon from "../../assets/html-1.svg";
+import htmlIcon from "../../assets/html-2.svg";
 import cssIcon from "../../assets/css-3 (1).svg";
 import javascriptIcon from "../../assets/logo-javascript.svg";
 import bootstrapIcon from "../../assets/bootstrap-5-1.svg";
@@ -15,6 +15,8 @@ import axios from "../../assets/axios.svg";
 import vite from "../../assets/Vitejs-logo.svg.png";
 import nextIcon from "../../assets/dango-inner-2.webp";
 import reactNativeIcon from "../../assets/react-native-1.svg";
+import reactHookForm from "../../assets/download (4).png";
+import zod from "../../assets/logo-glow.png";
 
 import { motion } from "framer-motion";
 const skills = [
@@ -125,6 +127,20 @@ const skills = [
     title: "Axios",
     description:
       "I'm developing a web application that requires communication with a backend server, and I used Axios to efficiently manage HTTP requests (GET, POST, PUT, DELETE).",
+  },
+  {
+    id: 18,
+    icon: reactHookForm,
+    title: "React Hook Form",
+    description:
+      "I used React Hook Form to build performant and scalable forms with minimal re-renders and built-in validation handling.",
+  },
+  {
+    id: 15,
+    icon: zod,
+    title: "Zod",
+    description:
+      "I used Zod to define and validate form schemas with TypeScript-friendly syntax, ensuring clean and safe data handling.",
   },
   {
     id: 16,

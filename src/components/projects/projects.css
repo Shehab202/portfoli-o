@@ -26,7 +26,7 @@
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0;
-  width: 100%;
+  /* width: 100%; */
   align-items: center;
   justify-content: center;
 }
@@ -42,8 +42,8 @@
   border-radius: 6px;
 }
 .technologyIcon img {
-  width: 40px;
-  padding: 0px 5px;
+  width: 30px;
+  padding: 0px 1px;
 }
 .project .box .card:hover {
   border: 2px solid #321226;
