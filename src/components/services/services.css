@@ -1,5 +1,7 @@
 .services {
   overflow: hidden;
+  padding-bottom: 5px;
+
 }
 .services .box {
   display: grid;

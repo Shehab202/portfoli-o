@@ -1,70 +1,100 @@
 footer {
-  margin-top: 50px;
+  margin-top: 80px;
+  padding: 40px 20px 20px;
   border-top-left-radius: 100px;
   background: linear-gradient(to bottom left, #0f172a, #1e1a78, #0f172a);
-
   width: 100%;
+  position: relative;
+  overflow: hidden;
 }
+
 footer ul {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(74px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto 30px auto;
+  padding: 0;
+}
 
-  width: 30%;
-  margin: auto;
-}
 footer ul li {
-  text-decoration: none;
   list-style: none;
-  margin: auto;
-  margin-top: 20px;
+  text-align: center;
+  font-weight: 500;
+  color: #d1d5db;
+  transition: color 0.3s ease;
 }
+
+footer ul li:hover {
+  color: #facc15;
+  cursor: pointer;
+}
+
 footer .social {
   display: flex;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px auto;
+  flex-wrap: wrap;
 }
 
 footer .social li {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  list-style: none;
 }
 
 footer .social li a {
-  background: linear-gradient(to top right, #1d4ed8, #3730a3, #4c0d2e);  padding: 12px;
-  font-size: 24px;
-  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top right, #1d4ed8, #3730a3, #4c0d2e);
+  padding: 12px;
+  font-size: 22px;
+  border-radius: 50%;
   color: white;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
+
 footer .social li a:hover {
-  background-image: linear-gradient(#eacda3, transparent);
-  color: var(--color-bg);
-  border-color: var(--color-bg);
+  background: linear-gradient(to bottom right, #facc15, #eab308);
+  color: #0f172a;
+  transform: scale(1.1);
 }
+
 footer p {
   text-align: center;
-  color: white;
+  color: #e5e7eb;
   font-size: 14px;
-  margin-top: 0px;
+  margin-top: 30px;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media (max-width: 600px) {
-  footer p {
-    max-width: 50%;
-    text-align: center;
-    margin: auto;
-  }
-  footer .social {
-    max-width: 50%;
-  }
-  footer .social li {
-    margin-right: 20px;
-    text-align: center;
-  }
-}
-@media (min-width: 600px) {
-  footer .social {
-    max-width: 10%;
-  }
+
+/* Responsive Tweaks */
+@media (max-width: 768px) {
   footer {
-    width: 100%;
+    padding: 30px 10px 20px;
+    border-top-left-radius: 50px;
+  }
+
+  footer ul {
+    max-width: 80%;
+  }
+
+  footer .social {
+    max-width: 80%;
+  }
+
+  footer .social li a {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  footer p {
+    max-width: 90%;
+    font-size: 13px;
   }
 }

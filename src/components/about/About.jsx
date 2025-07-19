@@ -46,29 +46,32 @@ function About() {
           <div className="content">
             <div className="imge" ref={x}>
               <img src={pg2} alt="" />
-            </div> 
-              <div className="text" ref={containerRef}>
-                <h2>Shehab Hussein</h2>
-                <p>
-                  I`m a <span>Frontend developer</span> based in{" "}
-                  <span>Egypt</span> with a relentless drive for excellence,
-                  skilled in creating and maintaining functional and responsive
-                  web applications and websites. Proficient in the latest web{" "}
-                  <span>technologies</span> and frameworks, continuously
-                  expanding my skill set to stay at the forefront of the
-                  industry.
-                </p>
-                <a
-                  className="btn btn-primary"
-                  href="https://api.whatsapp.com/send/?phone=201145082201&text&type=phone_number&app_absent=0"
-                  target="_blank"
-                >
-                  lets talk
-                </a>
-              </div>
+            </div>
+            <div className="text" ref={containerRef}>
+              <h2>Shehab Hussein</h2>
+              <p>
+                I&apos;m a <span>Frontend Developer</span> and{" "}
+                <span>React Native Mobile Developer</span> based in{" "}
+                <span>Egypt</span>, with a relentless drive for excellence. I
+                build and maintain functional, responsive <span>web</span> and{" "}
+                <span>mobile applications</span> using both{" "}
+                <strong>React Native CLI</strong> and <strong>Expo</strong>.
+                Proficient in the latest <span>technologies</span> and
+                frameworks, I constantly expand my skill set to stay at the
+                forefront of the industry.
+              </p>
+
+              <a
+                className="btn btn-primary"
+                href="https://api.whatsapp.com/send/?phone=201145082201&text&type=phone_number&app_absent=0"
+                target="_blank"
+              >
+                lets talk
+              </a>
             </div>
           </div>
         </div>
+      </div>
       {/* </div> */}
     </div>
   );

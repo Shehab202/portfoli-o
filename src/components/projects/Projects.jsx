@@ -7,6 +7,7 @@ import project5 from "../../../src/assets/ecomm.png";
 import project6 from "../../assets/portfolio6.jpg";
 import ocean from "../../assets/ocean.png";
 import htmlIcon from "../../assets/html-2.svg";
+import firebase from "../../assets/firebase-1.svg";
 import cssIcon from "../../assets/css-3 (1).svg";
 import javascriptIcon from "../../assets/logo-javascript.svg";
 import next from "../../assets/dango-inner-2.webp";
@@ -20,7 +21,7 @@ import hot from "../../assets/download (1).png";
 import reactsvg from "../../assets/react-2.svg";
 import reduxIcon from "../../assets/redux.svg";
 import bootstrapIcon from "../../assets/bootstrap-5-1.svg";
-
+import project7 from "../../assets/Screenshot_2025_07_19-1.png";
 import framer from "../../assets/framer-motion.svg";
 import router from "../../assets/Dark (1).svg";
 import sweetalert from "../../assets/download (2).png";
@@ -44,12 +45,13 @@ const allProject = [
     demo: "https://delightful-tapioca-7a0a8e.netlify.app/",
     technologies: [reactsvg, reactIcon, router],
   },
+
   {
     id: 23,
     img: ocean,
     title: "ocean",
     github: "kk",
-    demo: "https://ocean-zfhr-jhoujdh24-shehab202s-projects.vercel.app/",
+    demo: "https://ocean-sage.vercel.app/",
     technologies: [next, tailwindIcon, lucide],
   },
   {
@@ -60,13 +62,21 @@ const allProject = [
     demo: "https://shehab202.github.io/crud/",
     technologies: [htmlIcon, cssIcon, javascriptIcon, sweetalert],
   },
+    {
+    id: 100,
+    img: project7,
+    title: "Sales Management",
+    github: "kk",
+    demo: "https://sales-management-gezd.vercel.app/salesInvoice",
+    technologies: [firebase,reactsvg, router],
+  },
 
   {
     id: 2,
     img: project1,
     title: "Shane",
     github: "kk",
-    demo: "https://shehab202.github.io/repo/#",
+    demo: "https://shane-plum.vercel.app/",
     technologies: [htmlIcon, cssIcon, javascriptIcon],
   },
 

@@ -15,6 +15,8 @@ import axios from "../../assets/axios.svg";
 import vite from "../../assets/Vitejs-logo.svg.png";
 import nextIcon from "../../assets/dango-inner-2.webp";
 import reactNativeIcon from "../../assets/react-native-1.svg";
+import reactNavigationIcon from "../../assets/react-navigation.webp";
+import expoIcon from "../../assets/expo-1.svg";
 import reactHookForm from "../../assets/download (4).png";
 import zod from "../../assets/logo-glow.png";
 
@@ -57,21 +59,38 @@ const skills = [
     description:
       "Experienced in building dynamic user interfaces and managing state efficiently with React.",
   },
-  {
-    id: 17,
-    icon: reactNativeIcon,
-    title: "React Native",
-    description:
-      "Develop mobile apps using React Native, with a focus on user-friendly UI design and effective state manipulation.",
-  },
-
+  
   {
     id: 15,
     icon: nextIcon,
     title: "Next",
     description:
       "Familiar with building web applications using Next.js, including basic routing, API routes, and server-side rendering",
+  }
+,
+  {
+    id: 17,
+    icon: reactNativeIcon,
+    title: "React Native",
+    description:
+    "Build cross-platform mobile apps using both React Native CLI and Expo. Experienced in UI design, state management, navigation, authentication, and integration with real APIs.",
   },
+  {
+  id: 19,
+  icon: expoIcon,
+  title: "Expo",
+  description:
+    "Experienced in using Expo to rapidly build and test cross-platform mobile applications with React Native.",
+}
+,
+{
+  id: 20,
+  icon: reactNavigationIcon,
+  title: "React Navigation",
+  description:
+    "Proficient in implementing stack, tab, and drawer navigation in React Native apps using React Navigation.",
+}
+,
   {
     id: 8,
     icon: reduxIcon,

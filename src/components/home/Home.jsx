@@ -1,6 +1,6 @@
 import "./home.css";
 import png from "../../assets/31a6af58-0274-4626-8122-baa042d160fa.jpeg";
-import cv from "../../assets/Shehab Hussein ,cv.pdf";
+import cv from "../../assets/Shehab Hussein  Front-End & React Native Developer.pdf";
 import Social from "./Social";
 import gsap from "gsap";
 import { useEffect, useRef } from "react";
@@ -50,27 +50,26 @@ function Home() {
       <div className="container home-content" ref={one}>
         <h3>Hello I`m</h3>
         <h1>Sehab Hussein</h1>
-        <div className="rr">
-          <motion.h4
-            className="text-light"
-            initial={{ x: 0 }}
-            animate={{ x: "-100%" }}
-            transition={{
-              duration: 120,
-              repeat: Infinity,
-              delay: 1.5,
-              ease: "linear",
-            }}
-          >
-            A Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer A Frontend Developer A
-            Frontend Developer A Frontend Developer Frontend Developer A
-            Frontend Developer
-          </motion.h4>
-        </div>
+       <div className="rr">
+  <motion.h4
+    className="text-light"
+    initial={{ x: 0 }}
+    animate={{ x: "-100%" }}
+    transition={{
+      duration: 120,
+      repeat: Infinity,
+      delay: 1.5,
+      ease: "linear",
+    }}
+  >
+    A Frontend Developer & React Native Mobile Developer — A Frontend Developer
+    & React Native Mobile Developer — A Frontend Developer & React Native
+    Mobile Developer — A Frontend Developer & React Native Mobile Developer —
+    A Frontend Developer & React Native Mobile Developer — A Frontend Developer
+    & React Native Mobile Developer —
+  </motion.h4>
+</div>
+
         <div className="btns">
           <a className="btn" href={cv} download>
             Download CV
